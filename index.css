@@ -3,8 +3,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(132, 140, 173);
+}
 .nawbar_row{
-    background-color: rgb(201, 194, 194);
+    background-color: rgb(15, 19, 46);
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(40, 40, 122);
 }
 .img{
     height: 100px;
@@ -12,9 +18,11 @@
     border: 0px solid green;
     border-radius: 40px;
     padding: 10px;
+   
 }
+
 nav{
-    background-color: rgb(190, 184, 184);
+    background-color: rgb(153, 137, 137);
    
 }
 nav ul{
@@ -23,9 +31,85 @@ nav ul{
 }
 nav ul li a{
       color: white;
+      font-family: 'poppins',sans-serif;
       text-decoration: none;
       float: left;
       padding: 30px;
+      padding-top: 15px;
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
       justify-content: space-around;
+      font-size: 20px;
+      font-weight: 600;
 
+}
+.shop_icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+/* main page css */
+.main_container{
+   
+    background-image: url('assets/home/b_logo2.png');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding-top:10px;
+    border-radius: 20px ;
+    box-shadow: 2px 1px 5px gray;
+    
+    
+}
+.slogan{
+    font-family:'poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    padding: 15px ;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline;
+    font-size: 50px;
+
+}
+.find{
+    color: rgb(15, 15, 128);
+    background-color: rgba(211, 211, 37,0.7);
+    border-radius: 10px;
+    box-shadow: 5px 8px 7px rgb(71, 105, 150);
+   
+}
+.love{
+    color: rgb(211, 32, 19);
+    background-color: rgba(104, 230, 104,0.3);
+    border-radius: 10px;
+    box-shadow: 5px 8px 7px rgb(105, 105, 185);
+}
+
+.buy{
+    color: rgb(15, 15, 128);
+    background-color: rgba(211, 211, 37,0.3);
+    border-radius: 10px;
+    box-shadow: 5px 8px 7px rgb(55, 55, 129);
+    margin-left:  -60px;
+}
+.main_text{
+    display: flex;
+    font-family: 'poppins', sans-serif;
+   
+}
+.man_logo img{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-top:10px;
+    border-radius: 20px ;
+    box-shadow: 2px 1px 5px gray;
+    
 }
