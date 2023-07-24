@@ -98,6 +98,16 @@ nav ul li a{
     border-radius: 10px;
     box-shadow: 5px 8px 7px rgb(55, 55, 129);
     margin-left:  -60px;
+    
+    /* animation-name: my_animation;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+
+}
+@keyframes my_animation{
+    0%{color: rgb(196, 18, 18) ; }
+    100%{ color: rgb(15, 15, 116);} */
 }
 .main_text{
     display: flex;
