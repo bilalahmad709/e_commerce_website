@@ -55,7 +55,7 @@ nav ul li a{
    
     background-image: url('assets/home/b_logo2.png');
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
@@ -85,11 +85,21 @@ nav ul li a{
     box-shadow: 5px 8px 7px rgb(71, 105, 150);
    
 }
+.marq-find{
+    behavior: alternate;
+    direction: left;
+    
+}
 .love{
     color: rgb(211, 32, 19);
     background-color: rgba(104, 230, 104,0.3);
     border-radius: 10px;
     box-shadow: 5px 8px 7px rgb(105, 105, 185);
+}
+.marq-love{
+    behavior: alternate;
+    direction: down;
+    
 }
 
 .buy{
@@ -98,7 +108,7 @@ nav ul li a{
     border-radius: 10px;
     box-shadow: 5px 8px 7px rgb(55, 55, 129);
     margin-left:  -60px;
-    
+
     /* animation-name: my_animation;
     animation-duration: 3s;
     animation-timing-function: ease;
@@ -109,6 +119,22 @@ nav ul li a{
     0%{color: rgb(196, 18, 18) ; }
     100%{ color: rgb(15, 15, 116);} */
 }
+.marq-buy{
+    behavior: alternate;
+    direction: right;
+    
+}
+.service {
+    color: rgb(92, 51, 12);
+    background-color: rgba(104, 230, 104,0.4);
+
+}
+.service_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+
 .main_text{
     display: flex;
     font-family: 'poppins', sans-serif;
@@ -116,7 +142,7 @@ nav ul li a{
 }
 .man_logo img{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     padding-top:10px;
     border-radius: 20px ;
