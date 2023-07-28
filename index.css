@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(132, 140, 173);
+    background-color: rgb(180, 184, 201);
 }
 .nawbar_row{
     background-color: rgb(15, 19, 46);
@@ -55,13 +55,13 @@ nav ul li a{
    
     background-image: url('assets/home/b_logo2.png');
     width: 100%;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
     padding-top:10px;
     border-radius: 20px ;
-    box-shadow: 2px 1px 5px gray;
+    /* box-shadow: 2px 1px 5px gray; */
     
     
 }
@@ -78,6 +78,20 @@ nav ul li a{
     font-size: 50px;
 
 }
+.off{
+    font-size: 70px;
+    color: red;
+    padding-top: 40px;
+}
+.shop_button a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+}
 .find{
     color: rgb(15, 15, 128);
     background-color: rgba(211, 211, 37,0.7);
@@ -85,22 +99,23 @@ nav ul li a{
     box-shadow: 5px 8px 7px rgb(71, 105, 150);
    
 }
-.marq-find{
+/* .marq-find{
     behavior: alternate;
     direction: left;
     
-}
+} */
 .love{
     color: rgb(211, 32, 19);
     background-color: rgba(104, 230, 104,0.3);
     border-radius: 10px;
     box-shadow: 5px 8px 7px rgb(105, 105, 185);
+    margin-left:  -20px;
 }
-.marq-love{
+/* .marq-love{
     behavior: alternate;
     direction: down;
     
-}
+} */
 
 .buy{
     color: rgb(15, 15, 128);
@@ -108,6 +123,8 @@ nav ul li a{
     border-radius: 10px;
     box-shadow: 5px 8px 7px rgb(55, 55, 129);
     margin-left:  -60px;
+   
+
 
     /* animation-name: my_animation;
     animation-duration: 3s;
@@ -119,21 +136,25 @@ nav ul li a{
     0%{color: rgb(196, 18, 18) ; }
     100%{ color: rgb(15, 15, 116);} */
 }
-.marq-buy{
+/* .marq-buy{
     behavior: alternate;
     direction: right;
     
-}
+} */
 .service {
     color: rgb(92, 51, 12);
-    background-color: rgba(104, 230, 104,0.4);
+    background-color: rgba(11, 36, 105, 0.4);
+    border-radius: 10px;
+    box-shadow: 5px 9px 8px green;
+    padding: 15px;
+    margin: 0px;
 
 }
-.service_img{
+/* .service_img{
     height: 100px;
     width: 100px;
     border-radius: 30px;
-}
+} */
 
 .main_text{
     display: flex;
@@ -142,10 +163,18 @@ nav ul li a{
 }
 .man_logo img{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
     padding-top:10px;
     border-radius: 20px ;
     box-shadow: 2px 1px 5px gray;
     
+}
+
+/* css of second container */
+.second_container{
+    background-color: rgb(231, 216, 216);
+    width: 100vw;
+    height: 300px;
+    border-radius: 15px;
 }
