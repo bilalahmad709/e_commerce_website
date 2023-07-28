@@ -173,8 +173,35 @@ nav ul li a{
 
 /* css of second container */
 .second_container{
-    background-color: rgb(231, 216, 216);
+   border: 1px solid green;
     width: 100vw;
-    height: 300px;
     border-radius: 15px;
+    
+}
+.sec_cont_row{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.featre_div1{
+ background-color: rgb(190, 213, 235);
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: 3px 5px 3px rgb(81, 81, 201);
+ width: 200px;
+ height: 250px;
+ margin: 5px;
+}
+.features_photo{
+    width: 150px;
+    height: 150px;
+
+}
+.featre_div1 h3{
+    background-color: pink;
+    padding: 5px 5px;
+    color: green;
+    font-size: 20px;
+    
 }
