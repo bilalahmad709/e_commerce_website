@@ -173,6 +173,7 @@ nav ul li a{
 }
 
 /* css of second container */
+
 .second_container{
    /* border: 1px solid green; */
     width: 100vw;
@@ -213,4 +214,25 @@ nav ul li a{
     color: green;
     font-size: 20px;
     
+}
+
+/* css for third container */
+
+.third_container{
+    background-color:white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.features_product{
+    background-color: rgb(240, 240, 75);
+    display: inline;
+    padding: 8px;
+    border-radius: 20px;    
+}
+.third_cont_row{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
 }
