@@ -143,11 +143,12 @@ nav ul li a{
 } */
 .service {
     color: rgb(92, 51, 12);
-    background-color: rgba(11, 36, 105, 0.4);
+    font-size: 40px;
+    /* background-color: rgba(11, 36, 105, 0.4);
     border-radius: 10px;
     box-shadow: 5px 9px 8px green;
     padding: 15px;
-    margin: 0px;
+    margin: 10px; */
 
 }
 /* .service_img{
@@ -173,10 +174,18 @@ nav ul li a{
 
 /* css of second container */
 .second_container{
-   border: 1px solid green;
+   /* border: 1px solid green; */
     width: 100vw;
     border-radius: 15px;
+    text-align: center;
     
+}
+.features_heading{
+      color: green;
+      display: inline;
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 20px;
 }
 .sec_cont_row{
     background-color: aliceblue;
