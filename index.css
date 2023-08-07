@@ -237,6 +237,7 @@ nav ul li a{
     border-radius: 15px;
 }
 .featre_product_div{
+    min-width: 250px;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
@@ -249,6 +250,7 @@ nav ul li a{
     margin: 5px;
     cursor: pointer;
     transition: 0.5s ease;
+    position: relative;
    }
 
    .featre_product_div:hover{
@@ -277,4 +279,22 @@ nav ul li a{
    .featre_product_div .star{
     color: yellow;
     
+   }
+
+   .featre_product_div .cart{
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 50px;
+          background-color: rgb(182, 245, 245);
+          font-weight: 800;
+          color: rgb(7, 87, 60);
+          border: 1px solid azure;
+          position: absolute;
+          align-items: center;
+          justify-content: center;
+          padding-left: 8px;
+          bottom: 10px;
+          right: 10px;
+
    }
