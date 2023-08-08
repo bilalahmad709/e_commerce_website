@@ -199,10 +199,11 @@ nav ul li a{
  background-color: rgb(190, 213, 235);
  text-align: center;
  border-radius: 15px;
- box-shadow: 3px 5px 3px rgb(81, 81, 201);
+ box-shadow: 3px 5px 20px rgb(81, 81, 201);
  width: 200px;
  height: 250px;
  margin: 5px;
+ transition: 0.5s ease;
 }
 .features_photo{
     width: 150px;
@@ -239,7 +240,6 @@ nav ul li a{
 }
 .featre_product_div{
     min-width: 250px;
-
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
@@ -313,4 +313,85 @@ nav ul li a{
     display: inline;
     font-weight: bolder;
     border-radius: 5px;
+    transition: 0.5s ease;
+    box-shadow:5px 5px 10px rgb(124, 219, 188);
+   }
+
+   /* new arrivals row */
+   .new_arrivals h1{
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+   }
+
+   .new_arrivals{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+   }
+
+   .featre_product_div{
+    min-width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    text-align: start;
+    background-color: rgb(143, 188, 240);
+    border-radius: 15px;
+    box-shadow: 3px 5px 3px rgb(81, 81, 201);
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    position: relative;
+    overflow: hidden;
+   }
+
+   .new_arrivals:hover{
+    box-shadow: 6px 10px 20px rgb(81, 81, 201);
+   }
+   .new_arrivals .features_product_photo{
+    width: 100%;
+   height: 200px;
+   }
+
+   
+.new_arrivals span{
+    background-color:rgb(188, 197, 146);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+   }  
+  .new_arrivals h5{
+    color: white;
+    background-color: lightgreen;
+    margin-top:  10px;
+    border-radius: 5px;
+    padding: 2px;
+   }
+
+   .featre_product_div .star{
+    color: yellow;
+    
+   }
+
+   .featre_product_div .cart{
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 50px;
+          background-color: rgb(182, 245, 245);
+          font-weight: 800;
+          color: rgb(7, 87, 60);
+          border: 1px solid azure;
+          position: absolute;
+          align-items: center;
+          justify-content: center;
+          padding-left: 8px;
+          bottom: 10px;
+          right: 10px;
+
    }
