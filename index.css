@@ -253,6 +253,7 @@ nav ul li a{
     cursor: pointer;
     transition: 0.5s ease;
     position: relative;
+    overflow: hidden;
    }
 
    .featre_product_div:hover{
@@ -302,8 +303,14 @@ nav ul li a{
           right: 10px;
 
    }
-   
+
    .banner{
     height: 200px;
-    width: 100vw;
+    width: 100%;
+   }
+
+   .banner_btn{
+    display: inline;
+    font-weight: bolder;
+    border-radius: 5px;
    }
