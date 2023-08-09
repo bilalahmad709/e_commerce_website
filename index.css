@@ -395,3 +395,21 @@ nav ul li a{
           right: 10px;
 
    }
+
+   /* last banners  */
+  .banners_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banners_row .banner1 img{
+    height: 250px;
+    width: 100%;
+    margin: 0px 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .banners_row .banner2 img{
+    height: 250px;
+    width: 100%;
+  }
