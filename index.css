@@ -396,7 +396,7 @@ nav ul li a{
 
    }
 
-   /* last banners  */
+   /* showment  banners  */
   .banners_row{
     display: flex;
     align-items: center;
@@ -412,4 +412,39 @@ nav ul li a{
   .banners_row .banner2 img{
     height: 250px;
     width: 100%;
+  }
+
+  /* sign up row */
+  .signup_row{
+    height: auto;
+    width: 100%;
+    background-color: rgb(8, 8, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup_row h3{
+    color: white;
+    font-family:'poppins', sans-serif ;
+    padding: 15px;
+  }
+  .signup_row p{
+    color: white;
+  }
+  .signup_row p spam{
+    color: rgb(233, 233, 3);
+  }
+  .signup_row .search input{
+    height: 40px;
+    width: 220px;
+    margin:0px;
+  }
+  .signup_row .search input:hover{
+    box-shadow: 4px 5px 15px yellow;
+  }
+  .signup_row .search button{
+    height: 40px;
+    width: 100px;
+    margin:0px;
+    margin-left: 0px;
   }
