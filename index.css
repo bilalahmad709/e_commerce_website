@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+  
 }
 body{
     background-color: rgb(180, 184, 201);
@@ -436,15 +437,16 @@ nav ul li a{
   }
   .signup_row .search input{
     height: 40px;
-    width: 220px;
-    margin:0px;
+    width: 60%;
+    padding: 20px;
+   
   }
   .signup_row .search input:hover{
     box-shadow: 4px 5px 15px yellow;
   }
   .signup_row .search button{
     height: 40px;
-    width: 100px;
-    margin:0px;
-    margin-left: 0px;
+    width: 30%;
+    white-space: nowrap;
+    margin-bottom: 5px;
   }
