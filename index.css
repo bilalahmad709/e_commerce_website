@@ -8,10 +8,11 @@ body{
     background-color: rgb(180, 184, 201);
 }
 .nawbar_row{
-    background-color: rgb(15, 19, 46);
+    background-color: rgb(181, 185, 211);
     height: auto;
     border-radius: 20px;
     box-shadow: 5px 10px 10px rgb(40, 40, 122);
+    display: flex;
 }
 .img{
     height: 100px;
@@ -22,10 +23,10 @@ body{
    
 }
 
-nav{
-    background-color: rgb(235, 227, 227);
+/* nav{
+    background-color: rgb(85, 17, 17);
    
-}
+} */
 nav ul{
     list-style-type: none;
 
@@ -35,7 +36,7 @@ nav ul li a{
       font-family: 'poppins',sans-serif;
       text-decoration: none;
       float: left;
-      padding: 30px;
+      padding: 20px;
       padding-top: 15px;
       padding-left: 40px;
       display: flex;
@@ -51,6 +52,14 @@ nav ul li a{
     border-radius: 10px;
 }
 
+/* hamburger menu */
+#mobile_bar{
+    display: none;
+    padding-left: 20px;
+}
+#mobile_bar li{
+    list-style-type: none;
+}
 /* main page css */
 .main_container{
    
@@ -474,9 +483,13 @@ nav ul li a{
     margin: 0;
 }
 
+/* css for footer */
+
 .footer_row{
     background-color: aliceblue;
     padding-left: 20px;
+    border-radius: 20px;
+    text-wrap: wrap;
 }
 
 .contact_icon{
@@ -489,4 +502,71 @@ nav ul li a{
 .folow_icon{
     height: 30px;
     width: 30px;
+}
+
+/* about column */
+
+.about_column{
+text-align: center;
+padding-top: 30px;
+}
+.footer_about_ul{
+    list-style-type: none;
+   
+}
+.footer_about_ul li a{
+    color: black;
+    text-decoration: none;
+    box-shadow: 1px 1px 4px green;
+}
+.footer_about_ul li a:hover{
+    box-shadow: 5px 3px 15px blue;
+}
+
+.My_account_column{
+    text-align: center;
+padding-top: 30px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+/* for media querries */
+@media (max-width:799px) {
+    .nawbar_row #nav_bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right: -300px;
+        height:70vh;
+        width: 250px;
+        background-color: rgb(40, 40, 83);
+        box-shadow: 0px 40px 60px green;
+        border-radius: 20px;
+        padding: 80px 0 0 10px;
+        transition: 0.8s;
+
+    }
+    #nav_bar.active{
+        right: 0px;
+    }
+
+    .nawbar_row nav li{
+        margin-bottom: 25px;
+    }
+    #mobile_bar{
+      display: flex;
+      align-items:center;
+      justify-content:flex-end;
+      
+    }
+    #mobile_bar li{
+        color: blue;
+        padding: 15px;
+    }
 }
