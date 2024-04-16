@@ -589,25 +589,25 @@ padding-top: 30px;
         align-items: center;
         justify-content: center;
         position: fixed;
-        top:0;
+        margin-top:0px;
         right: -300px;
-        height:60vh;
-        width: 250px;
+        height:80vh;
+        width: 200px;
         background-color: rgb(40, 40, 83);
         box-shadow: 0px 40px 60px green;
         border-radius: 20px;
-        padding: 20px;
+        padding: 0px;
         padding-right: 90px;
+        padding-top: 40px;
         transition: 0.8s;
-        
-
     }
     #nav_bar.active{
         right: 0px;
     }
+    
     #hamburger_bar{
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         border-radius: 50px;
        margin-top: 20px;
     
