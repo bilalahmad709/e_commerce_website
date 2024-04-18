@@ -20,9 +20,10 @@
 }
 
 .product_description_div{
+    padding-left: 10px;
     height: auto;
     width: 70%;
-    background-color: red;
+    background-color: rgb(179, 188, 211);
 }
 
 .big_img{
