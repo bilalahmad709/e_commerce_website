@@ -54,7 +54,7 @@
 
         <!-- container for the detail of single Product -->
 
-        <div class="single_product_details_container container-fluid">
+        <div class="single_product_details_container ">
 
           <!-- div for images -->
           <div class="images_div">
@@ -62,7 +62,8 @@
             <div class="big_img">
               <img 
               src="assets/home/new_arrivals/1.png"
-              class="big_img_photo" 
+              class="big_img_photo"
+              id="big_img" 
               alt=" shirt image">
             </div>
             <!-- small images -->
@@ -92,7 +93,7 @@
 
           <div class="product_description_div">
             <h4>Men's Fashion T Shirt</h4>
-            <h4>15$</h4>
+            <h4>Price: 15$</h4>
 
             <select>
               <option>Select Size </option>
@@ -102,7 +103,7 @@
               <option>X large </option>
             </select>
 
-            <input type="number" value="1"  id="">
+            <input type="number" value="1"  id="" class="input_quantity">
 
             <button 
             class="btn btn-success">
@@ -120,7 +121,7 @@
 
         <!-- Featured product -->
         <div class="row new_arrivals">
-         <center> <h1>New Arrivals</h1> </center>
+         <center> <h1>Featured Products</h1> </center>
           
           <div class="featre_product_div">
               <img src="assets/home/new_arrivals/1.png" alt="" class="features_product_photo">   <br> 
@@ -262,7 +263,30 @@
     </div>
 
     
-  </div> 
+  </div>
+  
+  <script>
+    var bigImg= document.getElementById("big_img");
+    var smallImg= document.getElementsByClassName("small_img");
+
+    smallImg[0].onclick= function(){
+       bigImg.src= smallImg[0].src;
+    }
+
+    smallImg[1].onclick= function(){
+       bigImg.src= smallImg[1].src;
+    }
+
+    smallImg[2].onclick= function(){
+       bigImg.src= smallImg[2].src;
+    }
+
+    smallImg[3].onclick= function(){
+       bigImg.src= smallImg[3].src;
+    }
+  </script>
+
+  <script src="e_commerce.js"></script>
 </body>
-<script src="e_commerce.js"></script>
+
 </html>
