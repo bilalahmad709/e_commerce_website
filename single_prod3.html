@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerce website</title>
+
+    <!-- inserted file of bootstrap and js -->
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.js">
+
+     <link rel="stylesheet" href="e_commerce.css">
+    <link rel="stylesheet" href="single_prod.css">
+
+        <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-B0iLsZTH1FEnWkqmsFO6VdDD2iZbs6hL2QH89m+Uv/0Efz3Yx9NLSJLCNVX7+iaDc3o2+8eZl+pqHaGIDfI0nuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row nawbar_row">
+            <!-- navigation bar -->
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <img src="assets/home/site_logo.png" alt="logo" class="first_logo_img">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8 complete_nav">
+               
+              <nav id="nav_bar">
+                <ul>
+                    <li><img src="assets/home/cross.jpg" id="close" alt="img"></li>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="e_commerce_products.html"> Products </a></li>
+                    <li> <a href="#"> Services </a></li>
+                    <li> <a href="#"> Contact </a></li>
+                    <li> <a href="#"> <img src="assets/home/shop.png" alt="" class="shop_icon"> </a></li>
+                  </ul>
+              </nav>  
+
+              <!-- hamburger menu -->
+            <div id="mobile_bar">
+              <li> <a href="#"> <img src="assets/home/shop.png" alt="" class="shop_icon"> </a></li>
+              <img src="assets/home/hamburger.jpg" id="hamburger_bar" alt="menu">
+            </div>
+
+            </div>
+         </div>
+           
+        </div> 
+        <!-- end of row 1 -->
+        <br>
+
+        <!-- container for the detail of single Product -->
+
+        <div class="single_product_details_container ">
+
+          <!-- div for images -->
+          <div class="images_div">
+
+            <div class="big_img">
+              <img 
+              src="assets/home/product/6.png"
+              class="big_img_photo"
+              id="big_img" 
+              alt=" shirt image">
+            </div>
+            <!-- small images -->
+            <div class="small_imgs">
+              <img 
+               src="assets/home/new_arrivals/2.png"
+               class="small_img"
+               alt="">
+
+               <img 
+               src="assets/home/new_arrivals/3.png"
+               class="small_img"
+               alt="">
+
+               <img 
+               src="assets/home/new_arrivals/4.png"
+               class="small_img"
+               alt="">
+
+               <img 
+               src="assets/home/new_arrivals/5.png"
+               class="small_img"
+               alt="">
+            </div>
+
+          </div>
+
+          <div class="product_description_div">
+            <h4>Men's Fashion T Shirt</h4>
+            <h4>Price: 15$</h4>
+
+            <select class="select">
+              <option>Select Size </option>
+              <option>Small </option>
+              <option>Medium </option>
+              <option> Large</option>
+              <option>X large </option>
+            </select>
+
+            <input type="number" value="1"  id="" class="input_quantity">
+
+            <button 
+            class="btn btn-success">
+            Add To Cart
+            </button>
+
+            <h3>Product Details</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab veritatis provident 
+              incidunt tenetur dignissimos obcaecati voluptatem suscipit itaque animi, maxime 
+              illo nam minima totam eaque hic? Natus totam quis at quaerat perspiciatis labore 
+              deserunt error consectetur. Voluptate, asperiores impedit.</p>
+      
+          </div>
+        </div>
+
+        <!-- Featured product -->
+        <div class="row new_arrivals">
+         <center> <h1>Featured Products</h1> </center>
+          
+          <div class="featre_product_div">
+              <img src="assets/home/new_arrivals/1.png" alt="" class="features_product_photo">   <br> 
+              <span>adidas</span>  
+              <h5>Cotton T-Shirt for Men</h5> 
+              <div class="star">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+              </div>
+              <h4>$15</h4>
+              <a href="#"><li class="fa fa-shopping-cart  cart"></li></a>
+          </div>
+
+           
+          <div class="featre_product_div">
+              <img src="assets/home/new_arrivals/2.png" alt="" class="features_product_photo">   <br> 
+              <span>adidas</span>  
+              <h5>Cotton T-Shirt for Men</h5> 
+              <div class="star">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+              </div>
+              <h4>$15</h4>
+              <a href="#"><li class="fa fa-shopping-cart  cart"></li></a>
+          </div>
+
+           
+          <div class="featre_product_div">
+              <img src="assets/home/new_arrivals/3.png" alt="" class="features_product_photo">   <br> 
+              <span>adidas</span>  
+              <h5>Cotton T-Shirt for Men</h5> 
+              <div class="star">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+              </div>
+              <h4>$15</h4>
+              <a href="#"><li class="fa fa-shopping-cart  cart"></li></a>
+          </div>
+
+           
+          <div class="featre_product_div">
+              <img src="assets/home/new_arrivals/4.png" alt="" class="features_product_photo">   <br> 
+              <span>adidas</span>  
+              <h5>Cotton T-Shirt for Men</h5> 
+              <div class="star">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+              </div>
+              <h4>$15</h4>
+              <a href="#"><li class="fa fa-shopping-cart  cart"></li></a>
+          </div>
+         
+
+          
+      <!-- end of the arrivals row -->
+
+      
+
+    
+  </div> 
+
+ 
+<br>
+<div class="container">
+      
+    <!-- sign up row -->
+    <div class="row signup_row">
+
+      <div class="col-sm-12 col-md-6">
+       <h3>Sign Up For Newsletters</h3>
+       <p>get an Email Update about our shop and <spam><b>Special Offers!</b></spam></p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 search">
+     <input type="email" placeholder="Enter your email">
+     <button class="btn btn-success">Sign Up</button>
+      </div>
+    </div>
+<br>
+    <!-- footer section -->
+    <div class=" row footer_row">
+
+      <div class="contact_column col-lg-4 col-md-4 col-sm-4">
+        
+        <h4>Contact</h4>
+        <p><b>Address :</b> University Of Agriculture Peshawar.</p>
+        <p><b>Phone :</b> +92343-9270297</p>
+        <p><b>Duty Timing :</b> 10:00 - 17:00, Monday - Friday</p>
+        
+        <div class="follow_us">
+          <h3> Follow us</h3>
+
+          <div class="contact_icon">
+            <a href="https://www.facebook.com/bilalmomand.bilalmomand.71 "> <img src="assets/fonts/facebook.jpg " alt="" class="folow_icon"></a>
+            <a href="https://github.com/bilalahmad709"> <img src="assets/fonts/github.jpg " alt="" class="folow_icon"></a>
+            <a href="https://www.linkedin.com/in/bilal-ahmad-420846235/"> <img src="assets/fonts/linkdin.jpg " alt="" class="folow_icon"></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="about_column col-lg-4 col-md-4 col-sm-4">
+        <h4>About</h4>
+        <ul class="footer_about_ul">
+        <li><a href="">About Us</a> </li> <br>
+        <li><a href="">Delivery Information </a> </li>  <br>
+        <li><a href="">Privacy Policy </a> </li>  <br>
+        <li><a href="">Terms & Codition </a> </li>  <br>
+      </ul>
+      </div>
+
+      <div class="My_account_column col-lg-4 col-md-4 col-sm-4">
+        <h4>My Accounts</h4>
+        <ul class="footer_about_ul">
+          <li><a href="">Sign In</a> </li> <br>
+          <li><a href="">View Cart </a> </li>  <br>
+          <li><a href="">My Wishlist </a> </li>  <br>
+          <li><a href=""> Help </a> </li>  <br>
+        </ul>
+       
+      </div>
+    <!-- copyright row -->
+
+    <div class="copyright">
+      <p>@ 2024 Bilal.Coders. All rights reserved.</p>
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <script>
+    var bigImg= document.getElementById("big_img");
+    var smallImg= document.getElementsByClassName("small_img");
+
+    smallImg[0].onclick= function(){
+       bigImg.src= smallImg[0].src;
+    }
+
+    smallImg[1].onclick= function(){
+       bigImg.src= smallImg[1].src;
+    }
+
+    smallImg[2].onclick= function(){
+       bigImg.src= smallImg[2].src;
+    }
+
+    smallImg[3].onclick= function(){
+       bigImg.src= smallImg[3].src;
+    }
+  </script>
+
+  <script src="e_commerce.js"></script>
+</body>
+
+</html>
